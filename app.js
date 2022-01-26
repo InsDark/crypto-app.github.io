@@ -6,7 +6,7 @@ const getCrypto = () => {
         filterCrypto(data)
     })
     .catch(err => console.error(err))
-}
+} 
 
 
 const renderCrypto = (data) => {
